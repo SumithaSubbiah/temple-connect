@@ -48,8 +48,8 @@ services:
     ports:
       - "8082:8082"
     environment:
-    - GOOGLE_CLIENT_ID=386939923626-jrplhlac2os0fm47okotjo7bi01h2ba8.apps.googleusercontent.com
-    - GOOGLE_CLIENT_SECRET=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
+    - GOOGLE_CLIENT_ID=386939923626-.apps.googleusercontent.com
+    - GOOGLE_CLIENT_SECRET=GOCSPX--dVyE
 
   booking-service:
     build: ../booking-service
